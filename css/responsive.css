@@ -1,0 +1,144 @@
+@media (max-width: 1280px) {
+    .container {
+        max-width: 90% !important;
+    }
+}
+
+@media (max-width: 1024px) {
+  
+    section.profile {
+        flex-direction: column;
+        align-items: flex-start ;
+        clip-path: none;
+    }
+
+    section.profile .left {
+        margin-bottom: 1rem;
+    }
+
+    section.profile .right {
+        align-self: flex-end;
+    }
+
+    section.work .wrapper {
+        display: block;
+        
+    }
+
+    section.work .wrapper .slider-wrapper {
+        margin-bottom: 8rem;
+    }
+
+    section.brand-partners {
+        margin-top: 4rem;
+    }
+}    
+
+
+@media (max-width: 970px) {
+
+    
+    section.about .content{
+        grid-gap: 1rem;
+    }
+    
+    
+    section.skills .content {
+        display: block;
+    }
+
+    section.skills .content .left {
+        margin-bottom: 4rem;
+    }
+
+    .skills-wrapper {
+        margin-top: 3rem;
+    }
+
+    
+
+
+    section.work .wrapper .slider-wrapper {
+        margin-bottom: 1.2rem;
+    }
+
+    section.brand-partners .brands-wrapper img{
+        margin-bottom: 2rem;
+    }
+    section.brand-partners .brands-wrapper {
+        flex-wrap: wrap;
+    }
+
+
+    
+}
+
+@media (max-width: 768px){
+
+
+    section.about .content {
+        display: block;
+    }
+
+    section.about .content .left {
+        margin-bottom: 5rem;
+    }
+
+    section.contact .wrapper {
+            display: block;
+    }
+
+    section.contact .wrapper .left {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: space-between;
+    }
+  
+    section.counter-wrapper{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    section.counter-wrapper > div {
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 576px){
+
+    section.profile {
+        align-items: center;
+    }
+    section.profile .right {
+        align-self: center;
+    }
+
+    section.profile .left {
+        margin-bottom: 4rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    section.profile .left .avtar {
+        margin-bottom: 3rem;
+        
+        
+        margin-left: 20px;
+    }
+
+
+    section.contact .right {
+        display: block;
+    }
+    section.brand-partners{
+        margin-top: 1rem;
+    }
+
+    section.contact .wrapper .right .form_wrapper {
+        grid-template-columns: 1fr;
+    }
+}
